@@ -11,7 +11,7 @@ if(idade >= 16) {
 }
 // alert("vamos começar a jogar!")
 if(idade >= 16) {
-    let escolhaJogador = prompt ("A, B, C ou D? *em maiusculas*")
+    let escolhaJogador = prompt ("A, B, C ou D?").toUpperCase()
     let escolhaComputador = Math.floor(Math.random()* 4) + 1;
 
     if(escolhaComputador == 1) {
